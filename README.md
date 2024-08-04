@@ -11,6 +11,7 @@ Climate Data Store (CDS) Application Program Interface (API): cdsapi python libr
 2. Getting the pressure-level values: pressure-level values for the two input timestamps.
 3. Merging the single and pressure values: an inner-merge operation on the basis of time, latitude and longitude.
 4. Integrating year and day progress: year_progress_sin, year_progress_cos, day_progress_sin and day_progress_cos.
+5. Other steps include renaming columns and variables.
 ## Forcings
 Forcings for every coordinate and prediction timestamp are:
 1. total_incident_solar_radiation,
