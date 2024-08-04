@@ -1,5 +1,5 @@
-# driver-graphcast: Data preparation and main driver level steps required to fetch predictions.
-## GraphCast prediciton process:
+# driver-graphcast
+## GraphCast prediciton process: Data preparation and main driver level steps required to fetch predictions.
 1. Fetching the input data.
 2. Creating the targets.
 3. Creating the forcing data.
