@@ -12,13 +12,6 @@ Climate Data Store (CDS) Application Program Interface (API): cdsapi python libr
 3. Merging the single and pressure values: an inner-merge operation on the basis of time, latitude and longitude.
 4. Integrating year and day progress: year_progress_sin, year_progress_cos, day_progress_sin and day_progress_cos.
 5. Other steps include renaming columns and variables.
-## Forcings
-Forcings for every coordinate and prediction timestamp are:
-1. total_incident_solar_radiation,
-2. year_progress_sin,
-3. year_progress_cos,
-4. day_progress_sin,
-4. day_progress_cos.
 ## Prediction targets
 11 prediction fields:
 1. u_component_of_wind,
@@ -32,6 +25,13 @@ Forcings for every coordinate and prediction timestamp are:
 9. 2m_temperature,
 10. mean_sea_level_pressure,
 11. total_precipitation.
+## Forcings
+Forcings for every coordinate and prediction timestamp are:
+1. total_incident_solar_radiation,
+2. year_progress_sin,
+3. year_progress_cos,
+4. day_progress_sin,
+4. day_progress_cos.
 
 
 
