@@ -44,6 +44,15 @@ This step requires the model weights and normalization statistics files. The fil
 
 Note that the relative paths of the aforementioned files in the prediction.py is depicted below.
 
+    .
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
+
+
  .
  ├── prediction.py
  ├── model
