@@ -32,6 +32,26 @@ Forcings for every coordinate and prediction timestamp are:
 3. year_progress_cos,
 4. day_progress_sin,
 4. day_progress_cos.
+## Post-processing the inputs, targets and forcings
+Parsing through each data variable and removing unneeded indices to make sure each data variable is assigned to its right coordinates.
+1. Converting to xarray.
+## Predictions using Graphcast
+This step requires the model weights and normalization statistics files. The files to be downloaded are:
+1. stats/diffs_stddev_by_level.nc,
+2. stats/stddev_by_level.nc,
+3. stats/mean_by_level.nc and
+4. params/GraphCast_small — ERA5 1979–2015 — resolution 1.0 — pressure levels 13 — mesh 2to5 — precipitation input and output.npz.
+Note that the relative paths of the aforementioned files in the prediction.py is depicted below.
+.
+├── prediction.py
+├── model
+    ├── params
+        ├── GraphCast_small - ERA5 1979-2015 - resolution 1.0 - pressure levels 13 - mesh 2to5 - precipitation input and output.npz
+    ├── stats
+        ├── diffs_stddev_by_level.nc
+        ├── mean_by_level.nc
+        ├── stddev_by_level.nc
+
 
 
 
