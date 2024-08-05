@@ -34,7 +34,7 @@ Forcings for every coordinate and prediction timestamp are:
 4. day_progress_cos.
 ## Post-processing the inputs, targets and forcings
 Parsing through each data variable and removing unneeded indices to make sure each data variable is assigned to its right coordinates.
-1. Converting to xarray.
+1. Converting to right form of xarray.
 ## Predictions using Graphcast
 This step requires the model weights and normalization statistics files. The files to be downloaded are:
 1. stats/diffs_stddev_by_level.nc,
