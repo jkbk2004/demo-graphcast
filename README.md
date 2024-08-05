@@ -43,6 +43,7 @@ This step requires the model weights and normalization statistics files. The fil
 4. params/GraphCast_small — ERA5 1979–2015 — resolution 1.0 — pressure levels 13 — mesh 2to5 — precipitation input and output.npz.
 
 Note that the relative paths of the aforementioned files in the prediction.py is depicted below.
+```
     .
     ├── prediction.py
     ├── model
@@ -52,6 +53,7 @@ Note that the relative paths of the aforementioned files in the prediction.py is
             ├── diffs_stddev_by_level.nc
             ├── mean_by_level.nc
             ├── stddev_by_level.nc
+```
 
 
 
