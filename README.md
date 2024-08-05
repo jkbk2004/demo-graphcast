@@ -43,23 +43,16 @@ This step requires the model weights and normalization statistics files. The fil
 4. params/GraphCast_small — ERA5 1979–2015 — resolution 1.0 — pressure levels 13 — mesh 2to5 — precipitation input and output.npz.
 
 Note that the relative paths of the aforementioned files in the prediction.py is depicted below.
-
     .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
- .
     ├── prediction.py
     ├── model
-         ├── params
+        ├── params
             ├── GraphCast_small - ERA5 1979-2015 - resolution 1.0 - pressure levels 13 - mesh 2to5 - precipitation input and output.npz
-         ├── stats
+        ├── stats
             ├── diffs_stddev_by_level.nc
             ├── mean_by_level.nc
             ├── stddev_by_level.nc
+
 
 
 
